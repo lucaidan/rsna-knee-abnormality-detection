@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+
+# Competition data and model artifacts are never committed
+data/
+cache/
+*.pth
+*.npy
+submission.csv

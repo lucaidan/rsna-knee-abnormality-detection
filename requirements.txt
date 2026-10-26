@@ -1,0 +1,8 @@
+# Core dependencies (all preinstalled in the Kaggle GPU image).
+numpy
+pandas
+scipy
+scikit-learn
+torch
+timm
+pydicom
