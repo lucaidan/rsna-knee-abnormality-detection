@@ -141,9 +141,9 @@ Six findings improved and six worsened, so the macro average hides real per-find
 
 | Version | Public score |
 |---|---|
-| Initial two-notebook pipeline (train notebook plus separate inference notebook) | ~0.60 |
-| Single notebook, 5 frozen + 10 fine-tuned + 5 LoRA members, stratified folds, augmentation | 0.699 |
-| Final notebook in this repo (15 frozen + 10 fine-tuned + 10 LoRA members) | not recorded |
+| Initial two-notebook pipeline (train notebook plus separate inference notebook) | ~0.602 |
+| Single notebook, 5 frozen + 10 fine-tuned + 5 LoRA members, stratified folds, augmentation | ~0.699 |
+| Final notebook in this repo (15 frozen + 10 fine-tuned + 10 LoRA members) | ~0.700 |
 
 Many things changed between the first two rows (stratified folds, a head-training fix, augmentation, LoRA members, ensemble weights, chunked test prediction), so the gain cannot be attributed to any one of them. Wall-clock time on a Kaggle GPU was about 1.5 h for the 0.699 version and 1.9 h for the final one.
 
